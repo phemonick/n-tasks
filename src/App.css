@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.title {
+  font-size: 40px;
+  margin: 30px;
+}
+.btn {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+  cursor: pointer;
+  padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    margin-right: 15px;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.to-row {
+  flex-direction: row;
+}
+
+.list {
+  width: 100%;
+  overflow: auto;
+  max-width: 80%;
+  max-height: 700px;
+  background-color: #fff;
+  padding-bottom: 8px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.sticky-list {
+  top: 0;
+  z-index: 1;
+  position: sticky;
+  background-color: inherit;
+  margin: 20px;
+}
+
+.list-items {
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.content-root {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.text {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+
+.img-c {
+  height: 250px;
+  width: 32%;
+  margin-bottom: 20px;
+}
+
+.img-container {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 400px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
